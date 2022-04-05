@@ -81,7 +81,7 @@ myMonths = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","
 }                  
 var time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
         if(time2 < "23:59:00"){
-        var ucapanWaktu = 'GoodNigh🌌'
+        var ucapanWaktu = 'GoodNight🌌'
 }
         if(time2 < "19:00:00"){
         var ucapanWaktu = 'GooodEvening🌆'
@@ -93,7 +93,7 @@ var time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
         var ucapanWaktu = 'GoodAfternoon🏞'
 }
         if(time2 < "11:00:00"){
-        var ucapanWaktu = 'GoodMoorning🌅'
+        var ucapanWaktu = 'GoodMorning🌅'
 }
         if(time2 < "05:00:00"){
         var ucapanWaktu = 'GoodNight🏙'
@@ -162,17 +162,17 @@ var time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
                    
 //━━━━━━━━━━━━━━━[ CONNECTION 1 ]━━━━━━━━━━━━━━━\\            
 		mess = {
-			wait: '```𝘛𝘶𝘯𝘨𝘨𝘶 𝘉𝘦𝘯𝘵𝘢𝘳𝘳...```',
-		  	  success: '```𝘚𝘶𝘤𝘤𝘦𝘴𝘴 𝘕i𝘩```',
+			wait: '```[❗] Loading...```',
+		  	  success: '```[❗] Berhasil...```',
 			   error: {
-				stick: '```𝘚𝘵𝘪𝘤𝘬𝘦𝘳 𝘈𝘦 𝘟𝘰𝘯𝘵𝘰𝘭```',
-				 Iv: '```𝘓𝘪𝘯𝘬 𝘌𝘙𝘙𝘖𝘙 𝘉𝘳𝘶𝘩𝘩_-```',
+				stick: '```[❗] 𝘚𝘵𝘪𝘤𝘬𝘦𝘳 Tros...```',
+				 Iv: '```[❗] Link Error...```',
 	 	          },
 			       only: {
-	    	        group: '```𝘒𝘩𝘶𝘴𝘶𝘴 𝘎𝘳𝘰𝘶𝘱 𝘉𝘳𝘰𝘰```',
-	    	        owner: 'Khusus Owner Slurr',
-	    	        admin: 'Khusus Admin...',
-	    	        bot: 'Bo5 Harus Admin Boss',
+	    	        group: '```[❗] Khusus Grup Bang...```',
+	    	        owner: '[❗] Khusus Owner Ku>.<...',
+	    	        admin: '[❗] Khusus Admin Grup...',
+	    	        bot: '[❗] Bot Harus jadi admin...',
                   }
 	        	}
 		const isUrl = (url) => {
