@@ -17,7 +17,7 @@ const _welkom = JSON.parse(fs.readFileSync('./lib/data/welcome.json'))
 const gombal = _gombal[Math.floor(Math.random() * _gombal.length)]
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
           if(time2 < "23:59:00"){
-          var ucapanWaktu = 'GoodNigh'
+          var ucapanWaktu = 'GoodNight'
 }
           if(time2 < "19:00:00"){
           var ucapanWaktu = 'GooodEvening'
@@ -29,7 +29,7 @@ const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
           var ucapanWaktu = 'GoodAfternoon'
 }
           if(time2 < "11:00:00"){
-          var ucapanWaktu = 'GoodMoorning'
+          var ucapanWaktu = 'GoodMorning'
 }
           if(time2 < "05:00:00"){
           var ucapanWaktu = 'GoodNight'
